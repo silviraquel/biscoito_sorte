@@ -4,7 +4,7 @@ class Botao extends Component {
     render(){
         return(
             <div>
-                <button> Abrir Biscoito </button>
+                <button onClick={this.props.acaoBtn}>{this.props.nome} </button>
             </div>
         )
     }
